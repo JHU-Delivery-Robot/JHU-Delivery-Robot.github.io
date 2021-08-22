@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- Copyright (c) 2021 .   
+
+     This software is provided "AS IS", in hope that it will be useful, 
+     BUT WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.  IN NO EVENT 
+     SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+     DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT 
+     OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
+     OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+     Persons obtaining a copy of this software and are permitted to 
+     use, copy, modify, and distribute this software for NON-COMMERCIAL 
+     PURPOSES ONLY, PROVIDED THAT THIS ENTIRE COPYRIGHT AND PERMISSION 
+     NOTICE APPEARS IN ALL COPIES OR SUBSTANTIAL PORTIONS OF THE SOFTWARE.
+     COMMERCIAL USE OF ANY KIND OF THE SOFTWARE IS EXPRESSLY PROHIBITED.
+-->
+<html lang="en">
+  <head>
+    <title> JHU Deliverbot </title>
+    <meta charset="utf-8">
+    <!-- For responsiveness -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src=""> </script>
+    <script>
+      // function fixBars () {
+      //   if (document.body.scrollTop > ((window.innerWidth > 643) ? 17 : 43) || document.documentElement.scrollTop > ((window.innerWidth > 643) ? 17 : 43)) {  
+      //   document.getElementById("navbar").className = "w3-top";
+      //   } else {
+      //     document.getElementById("navbar").className = "";
+      //   }
+      // }
+      // window.onscroll = fixBars;
+    </script>
+    <link rel="stylesheet" href="w3.css">      
+  </head>
+  <body onload="">
+    <!-- Noscript warning modal -->
+    <noscript>
+      <div id="noscript-modal" class="w3-modal" style="display: block">
+        <div class="w3-modal-content w3-panel w3-red">
+          <h2> Attention! </h2>
+          <h4>
+            This website requires Javascript.
+          </h4>
+          <p>
+            Please enable Javascript
+            or update your web browser to a version that supports Javascript.
+          </p>
+        </div>
+      </div>
+    </noscript>
+
+    <!-- Navbar -->
+    <div id="navbar" class="w3-top">
+      <div class="w3-bar w3-blue">
+        <a href="#top" class="w3-bar-item w3-button"> <b>[JHU Deliverbot]</b> </a>
+        <!-- Right-justify links and hide on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="#mission" class="w3-bar-item w3-button"> Mission </a>
+          <a href="#subsystems" class="w3-bar-item w3-button"> Subsystems </a>
+          <a href="#contact" class="w3-bar-item w3-button"> Contact </a>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <div class="w3-display-container w3-green" id="top">
+      <img src="" style="width:100%" alt="Delivery Robot">
+      <div class="w3-middle">
+        <h1 class="w3-xxlarge w3-text-white w3-center">
+          <b>[JHU Deliverbot]</b>
+        </h1>
+        <h1 class="w3-large w3-text-white w3-center">
+          Autonomous delivery - built by students.
+        </h1>
+      </div>
+    </div>
+
+    <!-- Big picture and why we do it -->
+    <div class="w3-content" style="max-width:900px">
+      <div class="w3-container w3-row-padding" id="mission">
+        <div class="w3-third">
+          <h1> <em>We're building a campus delivery robot</em> </h1>
+        </div>
+        <div class="w3-twothird w3-padding w3-large">
+          The JHU Deliverbot team was formed for two reasons:
+          <ol>
+            <li> To provide students with practical, hands-on robotics experience </li>
+            <li> To create a low-cost, student-goverened autonomous delivery service for Homewood Campus </li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Subsystem cards -->
+      <h1 class="w3-center" id="subsystems"> What we do </h1>
+      <div class="w3-row-padding">
+        <div class="w3-col m4">
+          <div class="w3-card w3-padding">
+            <img src="" alt="">
+            <h2 class="w3-center"> Mechanical </h2>
+            <p> Short description </p>
+          </div>
+        </div>
+        <div class="w3-col m4">
+          <div class="w3-card w3-padding">
+            <img src="" alt="">
+            <h2 class="w3-center"> Electrical </h2>
+            <p> Short description </p>
+          </div>
+        </div>
+        <div class="w3-col m4">
+          <div class="w3-card w3-padding">
+            <img src="" alt="">
+            <h2 class="w3-center"> Navigation </h2>
+            <p> Short description </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <h1 class="w3-center" id="contact"> Contact us </h1>
+      <div class="w3-row">
+        <div class="w3-col m4 w3-padding">  
+          <h2 class="w3-center"> SIF </h2>
+          <p>
+            Come visit us at the Johns Hopkins Robotics Club table!
+            Register for SIF <a href=""> here.</a>
+          </p>
+        </div>
+        <div class="w3-col m4 w3-padding">  
+          <h2 class="w3-center"> Online </h2>
+          <p>
+            During SIF, we'll also be running an online booth
+            with the Robotics Club.
+          </p>
+        </div>
+        <div class="w3-col m4 w3-padding">  
+          <h2 class="w3-center"> Email </h2>
+          <p> You can reach us at <b>[email@address.edu]</b></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
